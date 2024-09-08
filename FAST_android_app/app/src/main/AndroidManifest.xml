@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mv.attendance">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Attendance">
+        <activity
+            android:name=".Mode2Teacher_DivisonList"
+            android:exported="false" />
+        <activity
+            android:name=".StatsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".Mode2Studentslist"
+            android:exported="false" />
+        <activity
+            android:name=".NewUser"
+            android:exported="false" />
+        <activity
+            android:name=".Mode2TakeAttendanceShowQRCode"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceListViewMode2"
+            android:exported="false" />
+        <activity
+            android:name=".GiveAttendance2"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".TakeAttendanceMode2"
+            android:exported="false" />
+        <activity
+            android:name=".TakeAttendanceDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".TakeAttendanceList"
+            android:exported="false" />
+        <activity
+            android:name=".TakeAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".GiveAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
